@@ -8,7 +8,7 @@ int main(){
     {
         #pragma omp for schedule(static,2)
         for(int i=0;i<num_iterations;i++){
-            printf("Thred %d:Iteration %d\n",omp_get_thread_num(),i);
+            printf("Thred %d:Iteration %d\n",omp_get_thread_num(),i); 
         
         }
     }
